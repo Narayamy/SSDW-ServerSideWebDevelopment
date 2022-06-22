@@ -1,0 +1,235 @@
+/*parallax effect*/
+body, html{
+	height: 100%;
+	background-color: #232222;
+}
+.parallax{
+	height: 100%; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+body{
+	padding-top: 2em;
+	width: 80%;
+	margin: 0 auto;
+}
+#page{
+	width: 900px;
+	margin: 0 auto;
+	background-color: #e5dede;
+	font-family: "Century Gothic", sans-serif;
+}
+
+/* navigation */
+#wrap{
+	width: 100%;
+	margin: 0 auto;
+}
+#header-home, #header-loggedIn{
+	float:left;
+	width: 160px;
+	height: 95px;
+	top:0;
+	margin:0;
+	padding-top: 1em;
+	padding-bottom:0;
+	padding-left:1em;
+}
+.logo{
+	width: 160px;
+	height: 95px;
+}
+
+/* navigation before logged in*/
+#navigation1{
+	float:left;
+	width: 80%;
+	margin: 0;
+	padding-top: 1.7em;
+	overflow: auto;
+}
+#navigation1 li{
+	width: 25%;
+}
+ul{ /* set the unordered lists inside the navbar*/
+	overflow:auto;
+	padding-left: 0;
+}
+ul li{
+	display:inline-block; /* makes the menu inline*/
+}
+li{ /* set the lists inside the navbar*/
+	width: 15em; 
+	text-align: center;  
+	list-style: none;  
+	padding: 0;
+	margin: 0;
+}
+a{ /* set all the links on navbar*/							
+	padding: 10px 0;
+	text-decoration: none;  
+	color: black; 
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* navigation after logged in*/
+#navigation2{
+	float:left;
+	width: 60%;
+	margin: 0;
+	/*padding-top: 1em;*/
+	overflow: auto;
+}
+
+#navigation2 ul{
+	overflow:auto;
+	width: 100%;
+	padding-top: 2em;
+	margin:0;
+}
+#navigation2 li{ /* set the lists inside the navbar*/
+	width: 6.5em; 
+	text-align: center;  
+	list-style: none;  
+	padding: 0;
+	margin: 0;
+}
+#navigation2 ul li{
+	display:inline-block; /* makes the menu inline*/
+}
+#navigation2 ul li a{ /* set all the links on navbar*/							
+	/*padding: 2.5em 0;*/
+	text-decoration: none;  
+	color: black; 
+	display: block;
+	font-weight: bold;
+	font-size: 17px;
+}
+#search{
+	width: 18%;
+	margin-top: 3em;
+	float: left;
+}
+
+
+#content{
+	width: 100%;
+	padding-top: 2em;
+	clear: both;
+	overflow:auto;
+}
+
+#about{
+	width: 90%;
+	margin: 0 auto;
+	border-style: ridge;
+	border-color: white;
+	padding-bottom: 2em;
+	background-color: #E6BC2F;
+}
+
+#about h1{
+	text-align: center;
+	color: #2d2d2a;
+}
+
+#about p{
+	padding-left: 2em;
+	padding-right: 2em;
+	color: #2d2d2a;
+}
+
+/* set each news to float left on main page*/
+.newsEventsPresentation{
+	display: block;
+	margin: 0, auto;
+	padding-left: 0.6em;
+}
+hr {
+    display: block;
+	width: 90%;
+    height: 2px;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    margin: 0, auto;
+    padding-top: 3em;
+}
+.newShow, .eventShow{
+	margin-right: 0.5em;
+	display: block;
+	float: left;
+	width: 30%;
+	height: 20em;
+	padding-left: 0.5em;
+	padding-right: 0.3em;
+	border-style: ridge;
+	border-collapse: separate;
+	border-spacing: 5px;
+}
+.newShow, .eventShow h3{
+	padding-bottom: 1em;
+}
+.newShow, .eventShow p{
+	padding-bottom: 1em;
+}
+.newShow h3,p, .eventShow h3,p{
+	color: black;
+}
+.newShow, .eventShow a{
+	text-decoration: none;
+}
+.newShow h3:hover, .eventShow h3:hover{
+	color: white;
+}
+.newShow p:hover, .eventShow p:hover{
+	color: white;
+}
+.eventShow{
+	background-color:#22a4d8;
+}
+.newShow{
+	background-color:#209931;
+}
+.presentNewsEvent{
+	font-size: 1.5em;
+	padding-left: 2em;
+	padding-bottom:1em;
+}
+
+footer{
+	clear: both;
+    text-align: center;
+	padding: 1em;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+footer a:hover{
+    color: rgb(248, 241, 241);
+}
+
+.form{
+	display: block;
+    text-align: center;
+	margin: 3em 0;
+	
+}
+
+form{
+	height: 30%;
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+h1{
+	padding-left: 9em;
+}
